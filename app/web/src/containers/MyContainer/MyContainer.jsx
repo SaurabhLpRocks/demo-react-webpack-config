@@ -1,1 +1,2 @@
-import MyComp from 'components/MyComp';
+import MyComp from 'components/MyComp'; // should resolve to app\web\src\components\MyComp\MyComp.jsx
+import { authorizingUser } from 'myRedux'; // should resolve to app\unify\myRedux\modules\auth\actions.js
