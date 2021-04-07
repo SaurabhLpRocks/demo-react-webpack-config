@@ -1,0 +1,12 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"], // Order of presets are really important.
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    [
+      "module-resolver",
+      {
+        "root": ["app", "./app/web", "./node_modules"]
+      }
+    ]
+  ]
+}
