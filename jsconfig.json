@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["app/web/src/components/*"],
+      "containers/*": ["app/web/src/containers/*"],
+      "constants/*": ["app/web/src/constants/*"],
+      "app/unify/*": ["app/unify/*"]
+    }
+  }
+}
