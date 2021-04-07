@@ -1,0 +1,1 @@
+import MyComp from 'components/MyComp';
